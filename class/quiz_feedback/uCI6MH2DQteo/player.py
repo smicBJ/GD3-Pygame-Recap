@@ -1,0 +1,1 @@
+# -6: Missing the entire player sprite file
