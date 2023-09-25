@@ -1,5 +1,5 @@
 # -1: You have an import for time that is not being used here, and you are mixing import types
-import pygame, time, sprite
+import pygame, time, player
 
 # pygame setup
 pygame.init()
