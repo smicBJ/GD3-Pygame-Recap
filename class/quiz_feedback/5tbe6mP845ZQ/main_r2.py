@@ -37,7 +37,7 @@ player = Player(group=characters)
 bg = py.image.load("Unit 2 Quiz - assets/map.png").convert()
 
 # game loop
-# -1: You are missing the colon after the true, which should be with a capital T
+# ✅: You are missing the colon after the true, which should be with a capital T
 # added the colon and change true to True
 while True:
     #events
@@ -45,13 +45,13 @@ while True:
         if event.type == py.QUIT:
             py.quit()
             sys.exit()
-    # -1: This loop is missing the group update and draw method being called and then the screen being updated
+    # ✅: This loop is missing the group update and draw method being called and then the screen being updated
     # added the update
     player.update()
 
     screen.blit(bg, (0, 0))
     player.draw(screen)
-# -1: You do not need two while loops so this second one will be irrelevant
+# ✅: You do not need two while loops so this second one will be irrelevant
 # while true
 # removed the second while loop
     delta_time = clock.tick(100)/1200
