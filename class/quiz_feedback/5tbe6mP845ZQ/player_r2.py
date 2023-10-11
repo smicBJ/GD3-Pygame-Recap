@@ -19,7 +19,7 @@ class Player(py.sprite.Sprite):
         # ✅: Improper rect creation
         # self.rect = player_rect(0)
         # change to proper self.image.get_rect
-        # -1: You forgot to create the variables before using them, so first create SCREEN_W and SCREEN_H
+        # ✅: You forgot to create the variables before using them, so first create SCREEN_W and SCREEN_H
         # create the variables:
         SCREEN_W = py.display.get_window_size()[0]
         SCREEN_H = py.display.get_window_size()[1]
