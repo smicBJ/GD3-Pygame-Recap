@@ -1,4 +1,4 @@
-# -6: Missing the entire player sprite file
+# ✅: Missing the entire player sprite file
 #added a sprite file
 import pygame
 class Player(pygame.sprite.Sprite):
