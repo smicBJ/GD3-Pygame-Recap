@@ -2,11 +2,11 @@
 import pygame
 import sys
 from player import Player
-# -1: irrelevant import
+# ✅: irrelevant import
 #from pygame.locals import *
 #deleeted the irrelevant import
 
-# -1: You call the init method twice, making one of the lines redundant
+# ✅: You call the init method twice, making one of the lines redundant
 #pygame.init()
 #deleted one init so it is not as redundant
 # Initialize Pygame
@@ -17,7 +17,7 @@ pygame.init()
 screensize = (1280, 720)
 screen = pygame.display.set_mode(screensize)
 clock = pygame.time.Clock()
-# -2: This should be in the game loop and why is it indented?
+# ✅: This should be in the game loop and why is it indented?
 #    screen.blit(background, (0, 0))
 # I moved it down into the game loop
 
