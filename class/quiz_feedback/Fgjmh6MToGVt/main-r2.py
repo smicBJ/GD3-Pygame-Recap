@@ -33,7 +33,7 @@ while True:
             pygame.quit()
             sys.exit()
 
-    # -1: The first thing in the changes section should be the creation of delta time
+    # ✅: The first thing in the changes section should be the creation of delta time
 
     delta_time = clock.tick(120) / 1000
 
@@ -51,10 +51,10 @@ while True:
     # flip() the display to put your work on screen
     screen.blit(background_img, (0, 0))
 
-    # -1: You should be using the group method to handle graphics and updates, which are both missing
+    # ✅: You should be using the group method to handle graphics and updates, which are both missing
     sprites.draw(screen)
 
-    # -1: Why are you flipping the screen instead of presenting it?
+    # ✅: Why are you flipping the screen instead of presenting it?
     pygame.display.update()
     
     # Note: see previous note about delta time and it's placement
