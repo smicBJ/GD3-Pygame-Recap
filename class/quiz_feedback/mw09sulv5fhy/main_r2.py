@@ -23,7 +23,7 @@ while running:
     dt = clock.tick(60) / 1000
 
 
-    # -1: Where is the update call on the sprite group?
+    # ✅: Where is the update call on the sprite group?
     all_sprites_list.update()
     # r2: added an update call for sprites
 
